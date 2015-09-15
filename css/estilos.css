@@ -1,0 +1,70 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 50px;
+	font-family: arial;
+	text-align: center;
+	font-size: 30px;
+	color: red;
+}
+body
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../img/claro2.png");
+}
+.circulo
+{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	/*border: 1px solid black;*/
+	border-radius: 10%;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.55);
+}
+
+#start 
+{
+    width: 150px;
+    padding: 20px 15px;
+    text-align: center;
+    font: bold 15px arial;
+    color: #000;
+    position: absolute;
+    top: 300px;
+    left: 590px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #1f628d;
+    color: white;
+}
+#puntuacion
+{	
+	width: 200px;
+	height: 40px;
+	background: #FD2E2E;
+	color: white;
+	margin-left: 400;
+	border-radius: 15px;
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	line-height: 30px;
+}
+footer{
+	margin-top: 550px;
+	text-align: center;
+	color: #236EE4;
+}
+
